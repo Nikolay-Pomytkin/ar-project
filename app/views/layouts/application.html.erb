@@ -5,11 +5,19 @@
   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
   <%= csrf_meta_tags %>
+  <script>
+    $(function() {
+      $.scrollify({
+        section : ".index-scroll",
+        scrollbars: false,
+        easing: "easeOutExpo",
+        setHights: true,
+        scrollSpeed: 1100,
+      });
+    });
+  </script>
 </head>
 <body>
-<div class="container">
-<%= render 'layouts/navbar'%>
-<%= yield %>
-</div>
+    <%= yield %>
 </body>
 </html>

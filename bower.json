@@ -1,0 +1,21 @@
+{
+  "name": "ar-project",
+  "homepage": "https://github.com/Nikolay-Pomytkin/ar-project",
+  "authors": [
+    "Nikolay Pomytkin <nikolayp2800@gmail.com>"
+  ],
+  "description": "noose",
+  "main": "",
+  "keywords": [
+    "noose"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

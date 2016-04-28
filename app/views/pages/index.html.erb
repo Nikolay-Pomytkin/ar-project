@@ -1,2 +1,21 @@
-<h1>welcome</h1>
-<p>Find me in app/views/pages/index.html.erb</p>
+<div class="index-scroll" style="background-image: url('bg-1.jpg'); background-size: cover">
+  <div class="container">
+    <%= render 'layouts/navbar'%>
+  </div>
+  <div class="row">
+    <div class="col-md-8 col-md-offset-2">
+      <div class="jumbotron">
+        <div class="row">
+          <div class="col-md-10 col-md-offset-1">
+            <h3>Global Warming and Climate Change</h3>
+            <p>are becoming the most prominent, up and coming issues that our generation will have to deal with.</p>
+            <p><%= link_to "OUR MISSION", our_mission_path, class:"btn btn-primary"%></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="index-scroll" style="background-image: url('bg-2.jpg'); background-size: cover">
+
+</div>
