@@ -7,13 +7,15 @@
   <%= csrf_meta_tags %>
   <script>
     $(function() {
+      (function($){})(jQuery);
       $.scrollify({
-        section : ".index-scroll",
+        section: ".index-scroll",
         scrollbars: false,
         easing: "easeOutExpo",
-        setHights: true,
-        scrollSpeed: 1100,
+        setHeights: true,
+        scrollSpeed: 1500,
       });
+      $.scrollify.update();
     });
   </script>
 </head>
