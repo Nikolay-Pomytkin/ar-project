@@ -1,3 +1,11 @@
+
+<script>
+  $(document).ready(function(){
+        $("#more-info").on('click', function(event) {
+          $.scrollify.next();
+        });
+      });
+</script>
 <div class="index-scroll" style="background-image: url('bg-1.jpg'); background-size: cover; height: 100%;">
     <div class="container">
       <%= render 'layouts/navbar'%>
@@ -18,10 +26,23 @@
   </div>
   <div class="row">
     <div class="col-md-2 col-md-offset-5">
-      <a id="more-info" class="btn btn-primary">More Info</a>
+      <a href = "#index-scroll" id="more-info" class="btn btn-primary">More Info</a>
     </div>
   </div>
 </div>
-<div class="index-scroll" style="background-image: url('bg-2.jpg'); background-size: cover">
-  
+<div class="index-scroll" id = "index-scroll" style="background-image: url('bg-2.jpg'); background-size: cover">
+  <div class="row">
+    <div class="col-md-8 col-md-offset-2">
+      <div class="jumbotron" style="margin-top: 11%;">
+        <div class="row">
+          <div class="col-md-10 col-md-offset-1">
+            <h3>How can YOU help?</h3>
+            <p>It's simple, just make smarter, informed decisions.</p>
+            <div class="">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 </div>
