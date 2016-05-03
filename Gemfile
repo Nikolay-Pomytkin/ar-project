@@ -19,5 +19,3 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 # AR Dependencies
 gem 'devise'
-gem 'bootstrap-sass'
-gem 'bootswatch-rails'
